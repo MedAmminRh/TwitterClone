@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.base{
+    border: 2px none;
+    border-color: rgba(160, 160, 160, 0.651);
+    border-radius: 25px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+    height: 350px;
+
+}
+img{
+    width: 50px;
+    margin-left: 275px;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+
+}
+input{
+    display: block;
+    margin-left: 100px;
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+    background-color: rgba(47, 156, 228, 0.089);
+    transition: background-bottom-color 0.2s,
+                color 0.2s;
+    border-radius: 2px;
+
+}
+input:focus{
+    border-bottom-color: rgb(47, 155, 228);
+}
+input:hover{
+    border-bottom-color: rgb(47, 155, 228);
+}
+input,.login,p{
+    cursor: pointer;
+}
+.login{
+    padding: 10px;
+    margin-left: 100px;
+    width: 409px;
+    height: 36px;
+    border: 2px solid rgb(36, 153, 231);
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(36, 153, 231);
+    color: white;
+    transition: background-color 0.2s,
+                color 0.2s,
+                opacity 0.3s;
+    
+}
+
+.login:hover{
+    color: rgb(36, 153, 231);
+    background-color: white;
+} 
+.login:active{
+    opacity: 0.6;
+}
+.p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(77, 180, 214);
+}
+strong{
+    color: gray;
+}
+input:focus::-webkit-input-placeholder{
+    color: rgb(47, 155, 228);
+}
+input:hover::-webkit-input-placeholder{
+    color: rgb(47, 155, 228);
+}
